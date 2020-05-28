@@ -1,0 +1,244 @@
+.container{
+	max-width:1152px;
+}
+h2{ font-family:Segoe-UI-Bold; }
+/*font-face css*/
+@font-face{src:url(../fonts/Segoe-UI.ttf); font-family:Segoe UI;}
+@font-face{src:url(../fonts/Segoe-UI-Bold.ttf); font-family:Segoe-UI-Bold;}
+@font-face{src:url(../fonts/Segoeuil.ttf); font-family:Segoe-UI-Light;}
+@font-face{src:url(../fonts/Segoeuisl.ttf); font-family:Segoe-UI-Semilight;}
+/*Base css*/
+
+
+
+/*dashboard section*/
+/*header css*/
+.header{ background-color:#000; }
+.header .navbar-default {background-color:unset;border-color:unset;}
+
+.header .navbar {min-height:auto;margin-bottom:0px;border: none;}
+.header .navbar-brand {height: auto;padding: 10px 0px;}
+.header .navbar-nav>li>a {padding-top:50px;padding-bottom:30px;color:#fff;font-family:Segoe-UI-bold;font-weight:bold;}
+.header .navbar-nav>li>a:hover{color:#f00;}
+/*footer css   */ 
+.footer{ background-color:#000; }
+.footer .well {
+    min-height:auto;
+    padding: 19px;
+    margin-bottom:0px;
+    background-color:unset;
+    border:none;
+    border-radius: 0px;
+}
+.footer .well p{ color:#fff; font-family:Segoe UI; font-size:14px; }
+
+
+/*signup section*/
+.signup{  background-image:url(../img/asphalt-beauty-colorful-237018.jpg); background-size:cover; }
+.signup_form{ margin-top:100px; margin-bottom: 100px; }
+.signup_form h3{ color:#dc1821; font-weight:bolder; padding-bottom: 20px; }
+.signup_form .panel{ background-color:#ddd8;  padding:20px 0px; }
+.signup button{ border:none; background-color: #a1aab2;}
+
+.login{  background-image:url(../img/asphalt-beauty-colorful-237018.jpg); background-size:cover; }
+.login_form{ margin-top:100px; margin-bottom: 180px;  }
+.login_form h3{ color:#dc1821; padding-bottom: 20px; font-weight:bolder; }
+.login_form .panel{ background-color:#ddd8; padding:20px 0px; }
+.login button{ border:none;  background-color: #a1aab2;}
+
+
+
+.container-fluid{
+	padding-left:auto;
+	padding-right:auto;
+}
+
+
+/*header1 section*/
+.header1 .navbar-fixed-top {
+    background-color:#4e4b4b;
+    border-color:unset;
+    padding-right: 50px;
+}
+
+.header1  .navbar {
+    border-radius:0px;
+}
+.header1 .navbar {
+   min-height:70px;
+    margin-bottom: 0px;
+    border:none;
+}
+.header1 .navbar-brand {
+    
+    height: auto;
+    padding: 5px 10px;
+    
+}
+.header1 .navbar-nav>li>a {
+    padding-top: 26px;
+    padding-bottom: 15px;
+    color: #d02929;
+}
+.header1 i{ color: #fff; font-size: 22px; }
+/*.middle .left_side {
+  background-color:#2c3136;
+  padding-bottom: 300px;
+
+}
+.middle .left_side h6{
+	color:#999;
+	padding-left: 5px;
+	margin-top:0px;
+	padding-top:10px;
+
+}
+.middle .left_side ul li{
+	list-style: none;
+}
+.middle .left_side .list-group {
+   
+    margin-bottom: 0px;
+}
+.middle .left_side  a.list-group-item{
+	color:#fff;
+	padding-left:5px;
+}
+a.list-group-item:focus, a.list-group-item:hover {
+    color: #fff;
+   
+    background-color: #999;
+}
+a.list-group-item, button.list-group-item {
+    color: #fff;
+}
+.list-group-item{
+	border:none;
+	background-color:#2c3136; 
+}*/
+/* Fixed sidenav, full height */
+.all{ background-color:#e2e4e6; }
+.middle{ padding-top:70px;  background-color:#e2e4e6;}
+.middle h6{
+  color:#999;
+  padding-left: 5px;
+  margin-top:0px;
+  padding-top:10px;
+
+}
+ .sidenav {
+  height:800px;
+  /*width: 200px;*/
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /*background-color: #111;*/
+  background-color: #4e4b4b;
+  overflow-x: hidden;
+  padding-top: 90px;
+  /*padding-left: 20px;*/
+
+  /*margin-left:15px;*/
+
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 15px 50px 15px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  /*color: #818181;*/
+  color:#fff;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  /*color: #f1f1f1;*/
+  color:#d02929;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.middle .right_side{
+	background-color:#e2e4e6;
+}
+.dashboard{ padding-bottom: 250px; }
+.box1 .panel{ background-color:#999; }
+.box1 .panel-body{ background-color:#e1e1e1; padding: 10 0px; margin:15px; }
+.box1 .panel-body h1{  }
+.box1 .panel-body h6{ color:#d02929; font-weight: bold;  }
+ 
+.box1 .panel-footer{ background-color: #999; border:none; font-size: 18px; color:#3a3536; font-family:Segoe UI; font-weight: bold;  }
+/* contact us*/
+.contact_us{ padding-bottom: 300px; }
+.contact_us h2{ padding-bottom: 30px; }
+.contact_us table{ background-color: #cccccc; }
+.contact_us .table-bordered{ border:1px solid #000; }
+.contact_us i{ color:#fff; }
+.contact_us .tab_head{ background-color: #555555; color: #fff; }
+
+.feedback_dash{ padding-bottom: 300px; }
+.feedback_dash h2{ padding-bottom: 30px; }
+.feedback_dash table{ background-color: #cccccc; }
+.feedback_dash .table-bordered{ border:1px solid #000; }
+.feedback_dash i{ color:#fff; }
+.feedback_dash .feed_head{ background-color: #555555; color: #fff; }
+
+.image_dash{ padding-bottom: 280px; }
+.box2 .panel{ background-color:#999; }
+.box2 .panel-body{ background-color:#e1e1e1; padding: 10 0px; margin:15px; }
+.box2 .panel-body h1{  }
+.box2 .panel-body h6{ color:#d02929; font-weight: bold;  }
+.box2 .panel-heading{ background-color: #999; border:none; font-size: 18px; color:#3a3536;  font-weight: bold;  }
+.box2 .submit_img{ background-color: #ed1c24; color:#fff; }
+.view_btn  .btn{ background-color:#7d7d7d; color:#000; margin-top:30px; }
+
+.view_dash{ padding-bottom: 100px;  }
+.box3 .thumbnail{ padding: 0px; border-radius: 0px; background-color:#e2e4e6; }
+.box3 .thumbnail .caption{ padding: 0px; }
+.box3 .thumbnail .caption .btn{ border-radius: 0px; background-color:#999; }
+
+.footer1{ background-color:#bfbaba; position:fixed;  width: 100%; bottom:0;   }
+.footer1 .well {
+
+    min-height:auto;
+    padding: 19px;
+    margin-bottom:0px;
+    background-color:unset;
+    border:none;
+    border-radius: 0px;
+}
+.footer1 .well p{ color:#fff; font-family:Segoe UI; font-size:14px; }
+
